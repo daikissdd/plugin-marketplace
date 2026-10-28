@@ -1,7 +1,7 @@
 {
   "name": "tickercode",
   "version": "0.4.2",
-  "description": "Japanese stocks, financials, company disclosures and your own watchlists through TickerCode's hosted MCP server. Sign in to TickerCode with OAuth on first connection.",
+  "description": "Japanese stocks, financials, company disclosures and your own watchlists through the ティッカーコード hosted MCP server. Sign in to ティッカーコード with OAuth on first connection.",
   "author": {
     "name": "株式会社TC",
     "email": "info@tc-kk.com",

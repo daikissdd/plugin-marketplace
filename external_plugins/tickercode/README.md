@@ -1,6 +1,6 @@
-# TickerCode for Grok Build
+# ティッカーコード for Grok Build
 
-Connect Grok Build to [TickerCode](https://ticker-code.com) for Japanese listed-company data, financial statements, company disclosures and your own watchlists.
+Connect Grok Build to [ティッカーコード](https://ticker-code.com) for Japanese listed-company data, financial statements, company disclosures and your own watchlists.
 
 ## Installation
 
@@ -13,7 +13,7 @@ grok mcp add --transport http tickercode https://api.ticker-code.com/mcp
 grok mcp doctor tickercode
 ```
 
-On first connection, Grok opens the TickerCode sign-in and consent screen. Use your own TickerCode account and approve the permissions you need. OAuth credentials are handled by Grok Build; this package embeds no password, API key or reviewer account. If authorization expires, reconnect in Grok Build.
+On first connection, Grok opens the ティッカーコード sign-in and consent screen. Use your own ティッカーコード account and approve the permissions you need. OAuth credentials are handled by Grok Build; this package embeds no password, API key or reviewer account. If authorization expires, reconnect in Grok Build.
 
 ## Tools
 
@@ -37,7 +37,7 @@ Only `watch_add` and `watch_remove` change account data, and only for the signed
 
 ## Authentication, privacy and network
 
-The MCP endpoint is `https://api.ticker-code.com/mcp` (Streamable HTTP). OAuth uses the TickerCode issuer at `https://ticker-code.com`, authorization code with PKCE, and dynamic client registration. The browser sign-in and consent flow uses the TickerCode website. Grok chooses scopes during authorization; this portable configuration does not override its OAuth scope selection. See the consent screen for the actual requested permissions.
+The MCP endpoint is `https://api.ticker-code.com/mcp` (Streamable HTTP). OAuth uses the ティッカーコード issuer at `https://ticker-code.com`, authorization code with PKCE, and dynamic client registration. The browser sign-in and consent flow uses the ティッカーコード website. Grok chooses scopes during authorization; this portable configuration does not override its OAuth scope selection. See the consent screen for the actual requested permissions.
 
 Tool results are sent to the AI service you connect. Private watchlist access is limited to the account and scopes you authorize. See [MCP privacy details](https://cdn.ticker-code.com/review/tickercode-mcp-privacy-v1.html), [general privacy policy](https://ticker-code.com/legal/privacy), and [service terms](https://ticker-code.com/legal/terms).
 
@@ -45,6 +45,6 @@ Support: [contact form](https://ticker-code.com/contact) or info@tc-kk.com.
 
 ## License and verification
 
-MIT applies to the configuration and documentation in this plugin directory. The hosted TickerCode service and its data remain subject to the service terms and applicable source rights.
+MIT applies to the configuration and documentation in this plugin directory. The hosted ティッカーコード service and its data remain subject to the service terms and applicable source rights.
 
 Catalog generation and validation are checked for this contribution. Production MCP discovery and 18-tool enumeration have been checked independently. These checks do not establish a completed Grok Build account-level OAuth session or consumer Grok directory publication.
